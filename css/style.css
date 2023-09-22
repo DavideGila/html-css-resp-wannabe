@@ -141,12 +141,23 @@ img {
         width: 100%;
         margin: 0 auto;
         padding: 0 20px;
+    }
+
+    .row {
         display: flex;
         flex-direction: column;
     }
 
+    .lessons .col {
+        width: 100%;
+    }
+
     .steps {
-        margin: 0;
+        margin: 3rem 0 0 0;
+    }
+
+    .steps .col {
+        width: 100%;
     }
 
     .why-us {
