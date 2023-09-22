@@ -129,13 +129,25 @@ img {
  ************************************************/
 
  @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+ }
+
+ /* @media screen and (max-width: 480px) {
     .text-center {
         text-align: center;
     }
 
     .container {
-        width: 768px;
+        width: 480px;
         margin: 0 auto;
         padding: 0 20px;
     }
- }
+
+    .why-us {
+        background-color: #222222;
+    }
+ } */
