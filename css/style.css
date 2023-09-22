@@ -136,18 +136,22 @@ img {
     }
  }
 
- /* @media screen and (max-width: 480px) {
-    .text-center {
-        text-align: center;
-    }
-
+ @media screen and (max-width: 480px) {
     .container {
-        width: 480px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps {
+        margin: 0;
     }
 
     .why-us {
         background-color: #222222;
+        margin: 0;
+        padding-top: 3em;
     }
- } */
+ } 
